@@ -1,8 +1,11 @@
 # ghost-theme-diaspora
-ghost theme diaspora
+
+
+theme
 ---
 
 A Ghost theme based on [Diaspora](https://github.com/LoeiFy/Diaspora), licensed under the MIT License (same as the original theme).
+
 
 Installation
 ---
@@ -12,6 +15,7 @@ Installation
 3. Choose `Diaspora` in Ghost's settings
 4. You are all set. Remeber to add a picture for each post and a cover image for the entire blog
 
+
 Developement
 ---
 
@@ -19,3 +23,4 @@ Developement
 2. Run `npm install` in this folder
 3. Install `grunt-cli` and run `grunt` here
 4. You are all set. Everytime you edit the style, you should run `grunt` again to build the theme
+
