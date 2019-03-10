@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="HandheldFriendly" content="True" />
-    <title>{{meta_title}}</title>
-    <meta name="description" content="{{meta_description}}" />
 
-    <!-- Resources built by Grunt -->
-    <link rel="stylesheet" type="text/css" href="{{asset "prebuilt/dist/base.css"}}"/>
-    <link rel="stylesheet" type="text/css" href="{{asset "prebuilt/dist/Diaspora.css"}}"/>
-    <link rel="stylesheet" href="//cdn.materialdesignicons.com/1.3.41/css/materialdesignicons.min.css" />
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/tomorrow-night-bright.min.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="HandheldFriendly" content="True" />
+  <title>{{meta_title}}</title>
+  <meta name="description" content="{{meta_description}}" />
+
+  <!-- Resources built by Grunt -->
+  <link rel="stylesheet" type="text/css" href="{{asset "prebuilt/dist/base.css"}}" />
+  <link rel="stylesheet" type="text/css" href="{{asset "prebuilt/dist/Diaspora.css"}}" />
+  <link rel="stylesheet" type="text/css" href="{{asset "prebuilt/static/materialdesignicons.min.css"}}" />
+  <link rel="stylesheet" type="text/css"
+    href="{{asset "prebuilt/static/highlight.js/style/tomorrow-night-bright.min.css"}}" />
 
 
-    {{ghost_head}}
-  </head>
-  <body class="loading">
-    <div id="loader"></div>
-    {{{body}}}
-    <!-- Scripts -->
-    <script type="text/javascript" src="{{asset "prebuilt/static/jquery.min.js"}}"></script>
-    <script type="text/javascript" src="{{asset "prebuilt/dist/plugin.js"}}"></script>
-    <script type="text/javascript" src="{{asset "prebuilt/dist/Diaspora.js"}}"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
-    <script>
-      hljs.initHighlightingOnLoad();
-    </script>
-    {{ghost_foot}}
-  </body>
+
+  {{ghost_head}}
+</head>
+
+<body class="loading">
+  <div id="loader"></div>
+  {{{body}}}
+  <!-- Scripts -->
+  <script type="text/javascript" src="{{asset "prebuilt/static/jquery.min.js"}}"></script>
+  <script type="text/javascript" src="{{asset "prebuilt/static/highlight.js/v9.15.6/highlight.min.js"}}"></script>
+  <script type="text/javascript" src="{{asset "prebuilt/dist/plugin.js"}}"></script>
+  <script type="text/javascript" src="{{asset "prebuilt/dist/Diaspora.js"}}"></script>
+  <script>
+    hljs.initHighlightingOnLoad();
+  </script>
+  {{ghost_foot}}
+</body>
+
 </html>
