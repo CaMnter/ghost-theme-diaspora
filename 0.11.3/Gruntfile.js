@@ -4,7 +4,7 @@ module.exports = function (grunt) {
         uglify: {
             global: {
                 options: {
-                    banner: "/* http://lorem.in  @author LoeiFy@gmail.com peter@typeblog.net */ \n"
+                    banner: "\n"
                 },
                 files: {
                     "assets/prebuilt/dist/Diaspora.js": ["assets/Diaspora.js"]
@@ -26,7 +26,7 @@ module.exports = function (grunt) {
         cssmin: {
             global: {
                 options: {
-                    banner: "/* http://lorem.in  @author LoeiFy@gmail.com peter@typeblog.net */ \n"
+                    banner: "\n"
                 },
                 files: {
                     "assets/prebuilt/dist/Diaspora.css": ["assets/Diaspora.css", "assets/icon.css"],
@@ -35,6 +35,7 @@ module.exports = function (grunt) {
             }
         }
     });
+
     // grunt plugin
     grunt.loadNpmTasks("grunt-contrib-uglify");
     grunt.loadNpmTasks("grunt-contrib-cssmin");

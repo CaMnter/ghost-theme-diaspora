@@ -1,6 +1,6 @@
 {
-  "name": "Diaspora",
-  "description": "Diaspora",
+  "name": "diaspora",
+  "description": "diaspora",
   "version": "0.0.1",
   "main": "Gruntfile.js",
   "devDependencies": {
@@ -11,8 +11,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:PeterCxy/ghost-diaspora.git"
+    "url": "git@github.com:CaMnter/ghost-theme-diaspora.git"
   },
-  "author": "Peter Cai <peter@typeblog.net>",
+  "author": "yuanyu.camnter@gmail.com",
   "license": "MIT"
 }
